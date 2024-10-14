@@ -272,7 +272,7 @@ int main() {
                                 break;
                             case 3:
                                 time_e[0] -= dist;
-                                if(dx == time_s[1] && dx >= time_e[0] && dy <= time_s[0]){
+                                if(dx == time_s[1] && dy >= time_e[0] && dy <= time_s[0]){
                                     bad = true;
                                 }
                         }
